@@ -66,10 +66,9 @@ li {
     color: #ffffff;
     text-transform: capitalize;
     font-weight: 600;
-    border: 2px solid #025f70;
     border-radius: 5px;
     margin-bottom: 10px;
-    background: #4EB9CD;
+    background: grey;
     transition: all 0.75s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -78,7 +77,7 @@ li {
 }
 
 li:hover {
-    background: #76CFE0;
+    background: #025F70;
 }
 
 li > button {
@@ -86,7 +85,7 @@ li > button {
     background: none;
     border: none;
     float: right;
-    color: #025f70;
+    color: white;
     font-weight: 800;
 }
 
@@ -100,7 +99,7 @@ input {
 
 .done {
     background: #51DF70 !important;
-    color: #00891E;
+    color: white;
 }
 
 .delete {
